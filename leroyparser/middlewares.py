@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 # Define here the models for your spider middleware
 #
 # See documentation in:
@@ -8,7 +6,7 @@
 from scrapy import signals
 
 
-class JobparserSpiderMiddleware:
+class LeroyparserSpiderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -56,7 +54,7 @@ class JobparserSpiderMiddleware:
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class JobparserDownloaderMiddleware:
+class LeroyparserDownloaderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
